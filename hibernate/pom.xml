@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.bin.framework</groupId>
-    <artifactId>bin-framework</artifactId>
+    <artifactId>bin-examples</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
   <groupId>com.bin.framework.hibernate</groupId>
