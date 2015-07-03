@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.bin.framework</groupId>
-    <artifactId>bin-examples</artifactId>
+    <artifactId>bin-framework</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
   <groupId>com.bin.framework.pdf</groupId>
