@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+   xmlns:ui="http://java.sun.com/jsf/facelets"
+   xmlns:h="http://java.sun.com/jsf/html"
+   xmlns:f="http://java.sun.com/jsf/core"
+   xmlns:e="http://packt.net/cookbook/components"
+   xmlns:customcomponent="http://xmlns.jcp.org/jsf/component"
+   xmlns:cc="http://bin.com/jsf/component">
+   <h:body>
+      <ui:composition template="templates/default.xhtml">	
+         <ui:define name="content">				
+         
+         	<!-- Hello world -->
+            <h:outputText value="#{helloWorld.message}"/>
+            
+            
+            
+            <br /><br /><br />
+            <!-- Application Events -->
+            <h2>Application Events</h2>
+      			<f:event listener="#{eventBeanTest.handleEvent}" type="preRenderView" /> 
+      			#{eventBeanTest.data}
+            
+            
+            
+            
+            <br /><br /><br />
+            <!-- Use message -->
+             <h2>Use Msg</h2>
+            <h:outputText value="#{msg['greeting']}" />
+            
+            
+            
+            
+            <br /><br /><br />
+            <!-- Use Custom Component -->
+             <h2>Use Custom Component</h2>
+
+				<!-- WORK GOOD -->             
+              <customcomponent:customComponent value="custom Component"/> <br /><br />
+              
+              <!-- WORK GOOD -->             
+              <customcomponent:uIInputCustom value="UIInputCustom"/> <br /><br />
+              
+              <h:form>
+              <cc:inputObject value="hello" /> <br /><br />
+              </h:form>
+
+				<!-- WORK GOOD -->              
+              <cc:outputObject value="#{mybean.user}" /><br /><br />
+				<cc:outputObject value="#{mybean.address}" />
+				
+				
+				<br /><br />
+				
+				<!-- Composite component -->
+				<!-- WORK GOOD -->
+				<cc:button buttonSubmitLabel="Submit" buttonResetLabel="Reset" />
+				
+				
+				
+				
+				
+				<br /><br />
+				<!-- Error Test -->
+				<h:form>
+					<h:messages style="color:red"/> <br />
+					
+					<h:inputText value="#{mybean.number}">
+						<f:event type="preRenderComponent" listener="#{mybean.preRenderComponent}" />
+						<f:event type="postAddToView" listener="#{mybean.postAddToView}" />
+						<f:event type="preValidate" listener="#{mybean.preValidate}" />
+						<f:event type="postValidate" listener="#{mybean.postValidate}" />
+					</h:inputText>
+					
+					<br />
+					
+					<h:commandButton action="#{errorBean.errorTest}" value="Error Test" />
+				
+				</h:form>
+
+
+
+			<br />
+			<br />
+			<br />
+			<br />
+			<h2>Custom Converter Example</h2>
+			<h:form>
+				Input a text and click submit: <h:inputText id="inputText_converter" value="#{myConverterBean.myData}"
+					label="Input Number">
+					<f:converter
+						converterId="com.bin.framework.web.jsf.converter.sample.MyConverter" />
+				</h:inputText>
+				<h:commandButton value="submit" action="result" />
+				<h:message for="inputText_converter" style="color:red" />
+			</h:form>
+
+
+
+			<br />
+			<br />
+			<br />
+			<br />
+			<h2>Custom Validator Example</h2>
+			<h:form>
+				Input a text and click submit: <h:inputText id="inputText_validator" label="Input Number">
+					<f:validator validatorId="com.bin.framework.web.jsf.validator.sample.MyValidator" />
+				</h:inputText>
+				<h:commandButton value="submit" action="result2" />
+				<h:message for="inputText_validator" style="color:red" />
+			</h:form>
+
+		</ui:define>
+      </ui:composition>
+   </h:body>
+</html>	

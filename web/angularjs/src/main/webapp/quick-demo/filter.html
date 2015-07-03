@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+
+</head>
+<body>
+
+	<div>
+		{{'World' | greet}}
+	</div>
+
+	<script type="text/javascript">
+		
+		// Declare a module
+		var module = angular.module("app", []);
+		
+		// create a filter
+		var greet = module.filter('greet', function(){
+			return function(name){
+				return "Hello, " + name + "!";
+			};
+		});
+	
+	</script>
+
+</body>
+</html>

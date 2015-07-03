@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="eventExample">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+
+<style type="text/css">
+.show-scope-demo.ng-scope, .show-scope-demo .ng-scope {
+	border: 1px solid red;
+	margin: 3px;
+}
+</style>
+
+</head>
+<body>
+
+	<div ng-controller="EventController">
+		Root scope
+		<tt>MyEvent</tt>
+		count: {{count}}
+		<ul>
+			<li ng-repeat="i in [1]" ng-controller="EventController">
+				<button ng-click="$emit('MyEvent')">$emit('MyEvent')</button>
+				<button ng-click="$broadcast('MyEvent')">$broadcast('MyEvent')</button>
+				<br> Middle scope <tt>MyEvent</tt> count: {{count}}
+				<ul>
+					<li ng-repeat="item in [1, 2]" ng-controller="EventController">
+						Leaf scope <tt>MyEvent</tt> count: {{count}}
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+		angular.module('eventExample', []).controller('EventController',
+				[ '$scope', function($scope) {
+					$scope.count = 0;
+					$scope.$on('MyEvent', function() {
+						$scope.count++;
+					});
+				} ]);
+	</script>
+
+</body>
+</html>

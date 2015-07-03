@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="ISO-8859-1">
+	<title>Bin jd demo</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+</head>
+<body>
+
+	<!-- Page 1 -->
+	<div data-role="page" id="page1">
+
+		<div data-role="header">
+			<h1>This is header</h1>
+		</div>
+
+		<div data-role="main" class="ui-content">
+			
+			<p>This is content!</p>
+			
+			Go to page and transition: 
+			<a href="#page2" data-transition="fade">fade</a>, 
+			<a href="#page2" data-transition="flip">flip</a>, 
+			<a href="#page2" data-transition="flow">flow</a>, 
+			<a href="#page2" data-transition="pop">pop</a>, 
+			<a href="#page2" data-transition="slide">slide</a>, 
+			<a href="#page2" data-transition="slidefade">slidefade</a>, 
+			<a href="#page2" data-transition="slideup">slideup</a>, 
+			<a href="#page2" data-transition="slidedown">slidedown</a>, 
+			<a href="#page2" data-transition="turn">turn</a>, 
+			<a href="#page2" data-transition="none">none</a> 
+			
+			<br />
+			
+			
+			
+			<!-- Button -->
+			Button: 
+			<input type="button" value="Button">
+			<button class="ui-btn">Button</button>
+			<a href="#" class="ui-btn ui-btn-b ui-corner-all">Button, corner, color</a>
+			<a href="#page2" class="ui-btn ui-mini ui-shadow">Go to page 2, Mini, shadow</a>
+			
+			<div data-role="controlgroup" data-type="horizontal">
+			    <p>Horizontal group:</p>
+			    <a href="#" class="ui-btn">Button 1</a>
+			    <a href="#" class="ui-btn">Button 2</a>
+			    <a href="#" class="ui-btn">Button 3</a>
+			  </div>
+			  
+			<br>
+			  
+			  <div data-role="controlgroup" data-type="vertical">
+			    <p>Vertical group (default):</p>
+			    <a href="#" class="ui-btn">Button 1</a>
+			    <a href="#" class="ui-btn">Button 2</a>
+			    <a href="#" class="ui-btn">Button 3</a>
+			  </div>
+			
+			<div>
+				<p>Inline button:</p>
+				<a class="ui-btn ui-btn-inline">Button Inline 1</a>
+		   		<a class="ui-btn ui-btn-inline">Button Inline 2</a>
+		   		<a class="ui-btn ui-btn-inline">Button Inline 3</a>
+			</div>
+			
+			
+			<br /><br />
+			<!-- Dialog -->
+			<a href="#pageAsDialog">Open page as dialog</a>
+			
+			
+		</div>
+
+		<div data-role="footer">
+			<h1>This is footer</h1>
+		</div>
+
+	</div>
+	
+	<!-- Page 2 -->
+	<div data-role="page" id="page2">
+
+		<div data-role="header">
+			<h1>This is header</h1>
+		</div>
+
+		<div data-role="main" class="ui-content">
+			<p>This is content!</p>
+			<a href="#page1">Link Page 1</a>
+		</div>
+
+		<div data-role="footer">
+			<h1>This is footer</h1>
+		</div>
+
+	</div>
+	
+	<!-- Use page like dialog -->
+	<div data-role="page" data-dialog="true" id="pageAsDialog">
+		<div data-role="header">
+			<h1>Dialog title</h1>
+		</div>
+		<div data-role="main" class="ui-content">
+		    <a href="#page1">Link Page 1</a>
+		</div>
+		<div data-role="footer">
+			<h1>Dialog footer</h1>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="ISO-8859-1">
+	<title>Bin jd demo</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+
+</head>
+<body>
+
+	<!-- Page 1 -->
+	<div data-role="page" id="page1">
+
+		<div data-role="header">
+			<h1>This is header</h1>
+		</div>
+
+		<div data-role="main" class="ui-content">
+			
+			<p>Popup</p>
+			
+			<a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all" data-position-to="window" data-transition="fade">Show Popup</a>
+			<a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all" data-position-to="#popupDemoPosition" data-transition="flow">Show Popup</a>
+			<a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all" data-position-to="origin" data-transition="flip">Show Popup</a>
+			
+			<br />
+			<span id="popupDemoPosition">Demo</span>
+			
+			<div data-role="popup" id="myPopup">
+				<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+			  <p>This is a simple popup.</p>
+			</div>
+			
+			
+			<br /><br />
+			<p>Popup Dialog</p>
+			<a href="#myPopupDialog" data-rel="popup" class="ui-btn">Open Dialog Popup</a>
+			<div data-role="popup" id="myPopupDialog">
+				<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+	  			<div data-role="header"><h1>Header Text..</h1></div>
+	  			<div data-role="main" class="ui-content"><p>Some text..</p><a href="#">some links..</a></div>
+	  			<div data-role="footer"><h1>Footer Text..</h1></div>
+  			</div>
+			
+			
+			
+			
+			<br /><br />
+			<p>Popup photo</p>
+			<a href="#myPopupPhoto" data-rel="popup" data-position-to="window">
+			    <img src="images/skaret.jpg" alt="Skaret View" style="width:200px;"></a>
+			
+			    <div data-role="popup" id="myPopupPhoto">
+			      <p>This is my picture!</p> 
+			      <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="images/skaret.jpg" style="width:800px;height:500px;" alt="Skaret View">
+			    </div>
+			
+			
+		</div>
+
+		<div data-role="footer">
+			<h1>This is footer</h1>
+		</div>
+
+	</div>
+
+</body>
+</html>

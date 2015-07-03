@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd"
+	version="2.2">
+	<application>
+		<!-- Application Startup -->
+		<system-event-listener>
+			<system-event-listener-class>
+				com.bin.framework.web.jsf.sample.AppSystemEventListener
+			</system-event-listener-class>
+			<system-event-class>
+				javax.faces.event.PostConstructApplicationEvent
+			</system-event-class>
+		</system-event-listener>
+		<!-- Before Application is to shut down -->
+		<system-event-listener>
+			<system-event-listener-class>
+				com.bin.framework.web.jsf.sample.AppSystemEventListener
+			</system-event-listener-class>
+			<system-event-class>
+				javax.faces.event.PreDestroyApplicationEvent
+			</system-event-class>
+		</system-event-listener>
+
+
+		<!-- Messages -->
+		<locale-config>
+			<default-locale>en</default-locale>
+			<supported-locale>fr</supported-locale>
+		</locale-config>
+		<resource-bundle>
+			<base-name>com.bin.framework.web.jsf.sample.messages</base-name>
+			<var>msg</var>
+		</resource-bundle>
+
+	</application>
+	
+</faces-config>
