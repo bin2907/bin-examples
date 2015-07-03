@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular-messages.min.js"></script>
+
+<style>
+</style>
+
+</head>
+<body>
+
+	<script type="text/javascript">
+		angular.module('app', [ 'ngMessages' ]).controller('Controller',
+				[ '$scope', function($scope) {
+
+				} ]);
+	</script>
+
+	<form name="myForm" ng-controller="Controller">
+
+		<label> Enter text: <input type="text" ng-model="field"
+			name="myField" required minlength="5" />
+		</label>
+
+		<script type="text/ng-template" id="error-messages">
+  			<div ng-message="required">This field is required</div>
+  			<div ng-message="minlength">This field is too short</div>
+		</script>
+
+		<div ng-messages="myForm.myField.$error" role="alert">
+		  <div ng-messages-include="error-messages"></div>
+		</div>
+
+	</form>
+
+</body>
+</html>

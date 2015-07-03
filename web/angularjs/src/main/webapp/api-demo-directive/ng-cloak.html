@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular-csp.css">
+
+<style>
+</style>
+
+</head>
+<body ng-controller="Controller">
+
+	<div id="template1">{{ binh }}</div>
+	<div id="template1" ng-cloak>{{ 'hello' }}</div>
+	<div id="template2" class="ng-cloak">{{ 'world' }}</div>
+
+	<script type="text/javascript">
+	
+	
+		// Open the comment below after having a demo to see difference
+		/* angular.module("app", []).controller("Controller",
+				[ "$scope", function($scope) {
+					$scope.binh = "Test";
+				} ]); */
+		
+	</script>
+
+</body>
+</html>

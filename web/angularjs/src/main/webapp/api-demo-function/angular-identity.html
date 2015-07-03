@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+
+</head>
+<body>
+
+	<div ng-controller="Controller">
+		<a href="#" ng-click="test();">Test</a>
+	</div>
+
+	<script type="text/javascript">
+		var module = angular.module("app", []);
+
+		module.controller("Controller", [ "$scope", function($scope) {
+
+			$scope.multply = function(n, n2) {
+				return n * n2;
+			};
+
+			$scope.getResult = function(fn, val, val2) {
+				return (fn || angular.identity)(val, val2);
+			};
+			
+			$scope.result1 = $scope.getResult($scope.multply, 	2, 5);
+			$scope.result2 = $scope.getResult(null, 			3, 2); // NOTE HERE: result always is 3
+			
+			console.log( $scope.result1  );
+			console.log( $scope.result2  );
+			
+
+		} ]);
+	</script>
+
+</body>
+</html>

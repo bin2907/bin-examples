@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+</head>
+<body>
+
+<script type="text/javascript">
+	
+	$(function(){
+		var arr1 = {
+			      config : {
+			            user : "name",
+			            mod : true
+			      }
+			};
+		
+		var arr2 = {
+			      config : {
+			            mod : false
+			      }
+			};
+		
+		var extendArr = $.extend(true, {}, arr1, arr2); // NOTE true: deep copy, {}: make sure arr1, arr2 don't change
+		
+		console.log( JSON.stringify( extendArr ) );
+		
+		console.log( JSON.stringify( arr1 ) );
+		
+		console.log( JSON.stringify( arr2 ) );
+		
+		// Merge only use for array
+		console.log( $.merge( [ 0, 1, 2 ], [ 2, 3, 4 ] ) );
+		
+		
+		
+	});
+	
+
+</script>
+
+</body>
+</html>

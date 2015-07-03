@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular-messages.min.js"></script>
+
+<style>
+</style>
+
+</head>
+<body>
+
+	<script type="text/javascript">
+		angular.module('app', [ 'ngMessages' ]).controller('Controller',
+				[ '$scope', function($scope) {
+
+				} ]);
+	</script>
+
+	<form name="myForm" ng-controller="Controller">
+
+		<label> Email address <input type="email" id="email"
+			name="myEmail" ng-model="email" minlength="5" required />
+		</label>
+
+		<script type="text/ng-template" id="my-custom-messages">
+  			<div ng-message="required">This field is required</div>
+  			<div ng-message="minlength">This field is too short</div>
+		</script>
+
+		<!-- any ng-message elements that appear BEFORE the ng-messages-include will
+       override the messages present in the ng-messages-include template -->
+		<div ng-messages="myForm.myEmail.$error" role="alert">
+			<!-- this required message has overridden the template message -->
+			<div ng-message="required">You did not enter your email address</div>
+
+			<!-- this is a brand new message and will appear last in the prioritization -->
+			<div ng-message="email">Your email address is invalid</div>
+
+			<!-- and here are the generic error messages -->
+			<div ng-messages-include="my-custom-messages"></div>
+		</div>
+
+	</form>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.1/angular-sanitize.js"></script>
+
+
+<style>
+</style>
+
+</head>
+<body>
+
+	<div ng-controller="ExampleController">
+		<p ng-bind-html="myHTML"></p>
+	</div>
+
+	<script type="text/javascript">
+		angular
+				.module('app', [ 'ngSanitize' ])
+				.controller(
+						'ExampleController',
+						[
+								'$scope',
+								function($scope) {
+									$scope.myHTML = 'I am an <code>HTML</code>string with '
+											+ '<a href="#">links!</a> and other <em>stuff</em>';
+								} ]);
+	</script>
+
+</body>
+</html>

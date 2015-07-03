@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+
+<style>
+</style>
+
+</head>
+<body>
+
+	<form name="myForm" ng-controller="ExampleController">
+	
+		<label>Email: <input type="email" name="input"
+			ng-model="email.text" required ng-pattern="Email is invalid">
+		</label>
+		
+		<div role="alert">
+			<span class="error" ng-show="myForm.input.$error.required">
+				Required!</span> <span class="error" ng-show="myForm.input.$error.email">
+				Not valid email!</span>
+		</div>
+		
+		<tt>text = {{email.text}}</tt>
+		<br />
+		<tt>myForm.input.$valid = {{myForm.input.$valid}}</tt>
+		<br />
+		<tt>myForm.input.$error = {{myForm.input.$error}}</tt>
+		<br />
+		<tt>myForm.$valid = {{myForm.$valid}}</tt>
+		<br />
+		<tt>myForm.$error.required = {{!!myForm.$error.required}}</tt>
+		<br />
+		<tt>myForm.$error.email = {{!!myForm.$error.email}}</tt>
+		<br />
+	</form>
+
+	<script type="text/javascript">
+		angular.module('app', []).controller('ExampleController',
+				[ '$scope', function($scope) {
+					$scope.email = {
+						text : 'me@example.com'
+					};
+				} ]);
+	</script>
+
+</body>
+</html>

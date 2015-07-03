@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+
+</head>
+<body>
+
+	<div ng-controller="Controller">
+	</div>
+
+	<script type="text/javascript">
+		var module = angular.module("app", []);
+
+		module.controller("Controller", [ "$scope", function($scope) {
+
+			$scope.person = {name : "Binh", age : 20};
+			$scope.persions = [];
+			
+			console.log( angular.isObject($scope.person)  );
+			console.log( angular.isObject($scope.persons)  ); // NOTE HERE. Array is not object. BUT in javascript array is object 
+			
+
+		} ]);
+	</script>
+
+</body>
+</html>

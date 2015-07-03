@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.1/angular.min.js"></script>
+
+<style>
+</style>
+
+</head>
+<body>
+
+	<form name="myForm" ng-controller="ExampleController">
+	
+		<label>List: <input name="namesInput" ng-model="names" ng-list
+			required></label> <span role="alert"> <span class="error"
+			ng-show="myForm.namesInput.$error.required"> Required!</span>
+		</span> <br>
+		
+		<tt>names = {{names}}</tt>
+		<br />
+		<tt>myForm.namesInput.$valid = {{myForm.namesInput.$valid}}</tt>
+		<br />
+		<tt>myForm.namesInput.$error = {{myForm.namesInput.$error}}</tt>
+		<br />
+		<tt>myForm.$valid = {{myForm.$valid}}</tt>
+		<br />
+		<tt>myForm.$error.required = {{!!myForm.$error.required}}</tt>
+		<br />
+	</form>
+
+	<script type="text/javascript">
+		angular.module('app', []).controller('ExampleController',
+				[ '$scope', function($scope) {
+					$scope.names = [ 'morpheus', 'neo', 'trinity' ];
+				} ]);
+	</script>
+
+</body>
+</html>
