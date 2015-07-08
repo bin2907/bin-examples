@@ -19,8 +19,10 @@
 	
   </dependencies>
   <modules>
+  	<module>spring-quickstart</module>
     <module>spring-servlet</module>
     <module>spring-sample</module>
     <module>spring-hibernate</module>
+    <module>spring-mvc</module>
   </modules>
 </project>

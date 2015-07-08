@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.bin.framework</groupId>
@@ -43,13 +44,13 @@
 			<artifactId>spring-web</artifactId>
 			<version>4.0.6.RELEASE</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>
 			<version>4.0.6.RELEASE</version>
 		</dependency>
-		
+
 
 		<!-- Hibernate -->
 		<dependency>
@@ -57,7 +58,7 @@
 			<artifactId>hibernate-core</artifactId>
 			<version>4.3.6.Final</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-ehcache</artifactId>
@@ -69,7 +70,7 @@
 			<artifactId>hibernate-validator-cdi</artifactId>
 			<version>5.1.2.Final</version>
 		</dependency>
-		
+
 
 		<!-- apache dbcp -->
 		<dependency>
@@ -92,29 +93,29 @@
 			<artifactId>postgresql</artifactId>
 			<version>9.1-901-1.jdbc4</version>
 		</dependency>
-		
+
 		<!-- MongoDB -->
 		<dependency>
 			<groupId>org.mongodb</groupId>
 			<artifactId>mongo-java-driver</artifactId>
 			<version>2.12.3</version>
 		</dependency>
-				
-		<!-- Mail --> 
-        <dependency> 
-            <groupId>javax.mail</groupId> 
-            <artifactId>mail</artifactId> 
-            <version>1.4</version> 
-        </dependency>
-        
-        <!-- iText -->
-       <dependency>
+
+		<!-- Mail -->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4</version>
+		</dependency>
+
+		<!-- iText -->
+		<dependency>
 			<groupId>com.itextpdf</groupId>
 			<artifactId>itextpdf</artifactId>
 			<version>5.5.2</version>
 		</dependency>
 
-		        
+
 
 	</dependencies>
 	<modules>
@@ -123,20 +124,24 @@
 		<module>web</module>
 		<module>hibernate</module>
 		<module>spring</module>
-    <module>pdf</module>
-    <module>db</module>
-  </modules>
+		<module>pdf</module>
+		<module>db</module>
+	</modules>
 
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
+				<version>3.0</version>
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
 				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.7</version>
 			</plugin>
 		</plugins>
 	</build>

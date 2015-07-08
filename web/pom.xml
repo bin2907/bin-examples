@@ -23,7 +23,6 @@
     <module>socket</module>
     <module>angularjs</module>
     <module>bootstrap</module>
-    <module>treegrid</module>
 	<module>javascript</module>
   </modules>
 </project>
