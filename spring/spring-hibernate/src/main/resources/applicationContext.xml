@@ -16,7 +16,7 @@
     <bean id="dataSource"
         class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close"
         p:driverClassName="com.mysql.jdbc.Driver"
-        p:url="jdbc:mysql://localhost:3306/hibernate_sample" 
+        p:url="jdbc:mysql://localhost:3306/spring-hibernate" 
         p:username="root"
         p:password="">
     </bean>
