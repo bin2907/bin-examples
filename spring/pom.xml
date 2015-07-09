@@ -32,5 +32,6 @@
     <module>spring-security-hibernate</module>
     <module>spring-security-limit-login-attempts</module>
     <module>spring-security-password-hash</module>
+    <module>spring-security-access-denied</module>
   </modules>
 </project>
