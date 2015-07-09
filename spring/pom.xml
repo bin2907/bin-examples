@@ -28,5 +28,7 @@
     <module>spring-mvc-security</module>
     <module>spring-mvc-security-custom-login-page</module>
     <module>spring-mvc-security-remember-me</module>
+    <module>spring-security-form-login-using-database</module>
+    <module>spring-security-hibernate</module>
   </modules>
 </project>
