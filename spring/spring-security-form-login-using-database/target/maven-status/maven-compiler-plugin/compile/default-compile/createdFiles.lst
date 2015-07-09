@@ -1,0 +1,5 @@
+com\bin\framework\spring\config\SpringSecurityInitializer.class
+com\bin\framework\spring\config\SecurityConfig.class
+com\bin\framework\spring\controller\MainController.class
+com\bin\framework\spring\config\AppConfig.class
+com\bin\framework\spring\config\SpringMvcInitializer.class
