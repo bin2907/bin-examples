@@ -30,5 +30,7 @@
     <module>spring-mvc-security-remember-me</module>
     <module>spring-security-form-login-using-database</module>
     <module>spring-security-hibernate</module>
+    <module>spring-security-limit-login-attempts</module>
+    <module>spring-security-password-hash</module>
   </modules>
 </project>
