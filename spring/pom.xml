@@ -33,5 +33,6 @@
     <module>spring-security-limit-login-attempts</module>
     <module>spring-security-password-hash</module>
     <module>spring-security-access-denied</module>
+    <module>spring-log4j</module>
   </modules>
 </project>
