@@ -34,5 +34,6 @@
     <module>spring-security-password-hash</module>
     <module>spring-security-access-denied</module>
     <module>spring-log4j</module>
+    <module>spring-exception-handle</module>
   </modules>
 </project>
