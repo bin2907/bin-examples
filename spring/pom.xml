@@ -36,5 +36,6 @@
     <module>spring-log4j</module>
     <module>spring-exception-handle</module>
     <module>spring-languages</module>
+    <module>spring-interceptor</module>
   </modules>
 </project>
