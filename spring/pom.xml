@@ -37,5 +37,6 @@
     <module>spring-exception-handle</module>
     <module>spring-languages</module>
     <module>spring-interceptor</module>
+    <module>spring-current-logged-in</module>
   </modules>
 </project>
