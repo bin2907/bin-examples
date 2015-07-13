@@ -42,5 +42,6 @@
     <module>spring-current-logged-in</module>
     <module>spring-override-message</module>
     <module>spring-page-not-found</module>
+    <module>spring-validation</module>
   </modules>
 </project>
