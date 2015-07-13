@@ -35,9 +35,12 @@
     <module>spring-security-access-denied</module>
     <module>spring-log4j</module>
     <module>spring-exception-handle</module>
+    <module>spring-exception-handle-business</module>
+    <module>spring-exception-handle-global</module>
     <module>spring-languages</module>
     <module>spring-interceptor</module>
     <module>spring-current-logged-in</module>
     <module>spring-override-message</module>
+    <module>spring-page-not-found</module>
   </modules>
 </project>

@@ -1,6 +1,7 @@
 package com.bin.framework.spring.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
@@ -18,4 +19,15 @@ public class MainController {
 		
 	}
 	
+	@ExceptionHandler(CustomGenericException.class)
+	public ModelAndView handleCustomException(CustomGenericException ex) {
+ 
+		// BUSINESS HERE
+		
+		ModelAndView model = new ModelAndView("error/generic_error");
+		model.addObject("exception", ex);
+		return model;
+ 
+	}
+
 }
