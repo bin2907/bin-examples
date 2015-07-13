@@ -38,5 +38,6 @@
     <module>spring-languages</module>
     <module>spring-interceptor</module>
     <module>spring-current-logged-in</module>
+    <module>spring-override-message</module>
   </modules>
 </project>
