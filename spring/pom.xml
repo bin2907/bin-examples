@@ -43,6 +43,7 @@
     <module>spring-override-message</module>
     <module>spring-page-not-found</module>
     <module>spring-validation</module>
+    <module>spring-form-submit-ajax-simple</module>
     <module>spring-form-submit</module>
   </modules>
 </project>
