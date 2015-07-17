@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample;
+package com.bin.hibernate.sample;
 
 import java.io.Serializable;
 
@@ -8,8 +8,8 @@ import org.hibernate.Transaction;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
-import com.bin.framework.hibernate.sample.entity.sequence.Address;
-import com.bin.framework.hibernate.sample.entity.sequence.User;
+import com.bin.hibernate.sample.entity.sequence.Address;
+import com.bin.hibernate.sample.entity.sequence.User;
 
 /**
  * Hello world!

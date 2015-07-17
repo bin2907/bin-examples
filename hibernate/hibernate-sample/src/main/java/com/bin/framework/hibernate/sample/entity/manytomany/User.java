@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample.entity.manytomany;
+package com.bin.hibernate.sample.entity.manytomany;
 
 import java.util.List;
 

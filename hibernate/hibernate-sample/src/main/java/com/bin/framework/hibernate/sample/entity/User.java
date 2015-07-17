@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample.entity;
+package com.bin.hibernate.sample.entity;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.bin.framework.spring.dto;
+package com.bin.spring.dto;
 
 import org.hibernate.validator.constraints.NotEmpty;
 import org.hibernate.validator.constraints.Range;

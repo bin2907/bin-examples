@@ -1,4 +1,4 @@
-package com.bin.framework.pdf.itext.sample.utils;
+package com.bin.pdf.itext.sample.utils;
 
 
 public class Country {

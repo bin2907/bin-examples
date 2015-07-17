@@ -1,4 +1,4 @@
-package com.bin.framework.spring.servlet.beans;
+package com.bin.spring.servlet.beans;
 
 import org.springframework.stereotype.Service;
 

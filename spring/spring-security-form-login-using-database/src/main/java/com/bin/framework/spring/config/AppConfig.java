@@ -1,4 +1,4 @@
-package com.bin.framework.spring.config;
+package com.bin.spring.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan({ "com.bin.framework.spring.*" })
+@ComponentScan({ "com.bin.spring.*" })
 @Import({ SecurityConfig.class })
 public class AppConfig {
 

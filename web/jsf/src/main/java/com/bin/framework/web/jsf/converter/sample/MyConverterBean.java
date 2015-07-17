@@ -1,4 +1,4 @@
-package com.bin.framework.web.jsf.converter.sample;
+package com.bin.web.jsf.converter.sample;
 
 import java.io.Serializable;
 

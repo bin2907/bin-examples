@@ -1,4 +1,4 @@
-package com.bin.framework.web.jsf.components.outputoject;
+package com.bin.web.jsf.components.outputoject;
 
 import javax.faces.component.FacesComponent;
 import javax.faces.component.UIInput;

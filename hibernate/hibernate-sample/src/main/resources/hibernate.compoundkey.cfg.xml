@@ -14,9 +14,9 @@
 		<!-- Default is import.sql -->
 		<property name="hibernate.hbm2ddl.import_files">initial_data_compoundkey.sql</property>
 		
-		<mapping class="com.bin.framework.hibernate.sample.entity.compoundkey.User"/>
-		<mapping class="com.bin.framework.hibernate.sample.entity.compoundkey.Role"/>
-		<mapping class="com.bin.framework.hibernate.sample.entity.compoundkey.UserRole"/>
+		<mapping class="com.bin.hibernate.sample.entity.compoundkey.User"/>
+		<mapping class="com.bin.hibernate.sample.entity.compoundkey.Role"/>
+		<mapping class="com.bin.hibernate.sample.entity.compoundkey.UserRole"/>
 		
 	</session-factory>
 </hibernate-configuration>

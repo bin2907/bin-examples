@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>web</artifactId>
-    <groupId>com.bin.framework.web</groupId>
+    <groupId>com.bin.web</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>com.bin.framework.web.servlet</groupId>
+  <groupId>com.bin.web.servlet</groupId>
   <artifactId>servlet</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>

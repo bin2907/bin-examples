@@ -5,4 +5,4 @@
  * @author binh.nguyenthanh
  *
  */
-package com.bin.framework.web.primefaces;
+package com.bin.web.primefaces;

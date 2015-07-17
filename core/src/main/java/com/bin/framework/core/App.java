@@ -1,6 +1,6 @@
-package com.bin.framework.core;
+package com.bin.core;
 
-import com.bin.framework.util.StringUtil;
+import com.bin.util.StringUtil;
 
 /**
  * Hello world!

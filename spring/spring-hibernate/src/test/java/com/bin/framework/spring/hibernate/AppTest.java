@@ -1,4 +1,4 @@
-package com.bin.framework.spring.hibernate;
+package com.bin.spring.hibernate;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

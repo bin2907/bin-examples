@@ -1,4 +1,4 @@
-package com.bin.framework.pdf.itext.sample.utils;
+package com.bin.pdf.itext.sample.utils;
 
 import java.sql.Date;
 import java.sql.Time;

@@ -1,4 +1,4 @@
-package com.bin.framework.web.jsf.backingbeans;
+package com.bin.web.jsf.backingbeans;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -11,8 +11,8 @@ import javax.faces.event.PostValidateEvent;
 import javax.faces.event.PreRenderComponentEvent;
 import javax.faces.event.PreValidateEvent;
 
-import com.bin.framework.web.jsf.beans.Address;
-import com.bin.framework.web.jsf.beans.User;
+import com.bin.web.jsf.beans.Address;
+import com.bin.web.jsf.beans.User;
 
 @ManagedBean(name = "mybean")
 @RequestScoped

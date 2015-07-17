@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample;
+package com.bin.hibernate.sample;
 
 
 import org.hibernate.Session;

@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample.entity.embeddedid;
+package com.bin.hibernate.sample.entity.embeddedid;
 
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;

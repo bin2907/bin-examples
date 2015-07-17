@@ -1,4 +1,4 @@
-package com.bin.framework.spring.core.annotation;
+package com.bin.spring.core.annotation;
 
 import org.springframework.stereotype.Repository;
 

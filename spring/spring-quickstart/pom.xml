@@ -5,10 +5,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<artifactId>spring</artifactId>
-		<groupId>com.bin.framework.spring</groupId>
+		<groupId>com.bin.spring</groupId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-	<groupId>com.bin.framework.spring.quickstart</groupId>
+	<groupId>com.bin.spring.quickstart</groupId>
 	<artifactId>spring-quickstart</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<name>spring-quickstart</name>

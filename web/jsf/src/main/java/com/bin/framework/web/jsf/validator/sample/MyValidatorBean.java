@@ -1,11 +1,11 @@
-package com.bin.framework.web.jsf.validator.sample;
+package com.bin.web.jsf.validator.sample;
 
 import java.io.Serializable;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
-import com.bin.framework.web.jsf.converter.sample.MyData;
+import com.bin.web.jsf.converter.sample.MyData;
 
 @ManagedBean(eager=true)
 @SessionScoped

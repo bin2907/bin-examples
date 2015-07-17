@@ -1,4 +1,4 @@
-package com.bin.framework.spring.hibernate;
+package com.bin.spring.hibernate;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

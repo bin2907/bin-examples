@@ -1,11 +1,11 @@
-package com.bin.framework.spring.controller;
+package com.bin.spring.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.bin.framework.spring.exception.CustomGenericException;
+import com.bin.spring.exception.CustomGenericException;
 
 @Controller
 public class MainController {

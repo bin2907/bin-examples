@@ -5,4 +5,4 @@
  * @author binh.nguyenthanh
  *
  */
-package com.bin.framework.hibernate.sample.entity.sequence;
+package com.bin.hibernate.sample.entity.sequence;

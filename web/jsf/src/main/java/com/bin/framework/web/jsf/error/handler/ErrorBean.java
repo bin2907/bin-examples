@@ -1,4 +1,4 @@
-package com.bin.framework.web.jsf.error.handler;
+package com.bin.web.jsf.error.handler;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.bean.ManagedBean;

@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample.entity.compoundkey;
+package com.bin.hibernate.sample.entity.compoundkey;
 
 import org.hibernate.Query;
 import org.hibernate.Session;

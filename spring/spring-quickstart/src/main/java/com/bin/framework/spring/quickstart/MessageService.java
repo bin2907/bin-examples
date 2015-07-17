@@ -1,4 +1,4 @@
-package com.bin.framework.spring.quickstart;
+package com.bin.spring.quickstart;
 
 public interface MessageService {
 	String getMessage();

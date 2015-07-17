@@ -1,4 +1,4 @@
-package com.bin.framework.spring.service;
+package com.bin.spring.service;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

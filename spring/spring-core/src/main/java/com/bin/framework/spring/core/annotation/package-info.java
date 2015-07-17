@@ -5,4 +5,4 @@
  * @author binh.nguyenthanh
  *
  */
-package com.bin.framework.spring.core.annotation;
+package com.bin.spring.core.annotation;

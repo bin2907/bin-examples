@@ -1,4 +1,4 @@
-package com.bin.framework.spring.config;
+package com.bin.spring.config;
 
 import java.util.Locale;
 
@@ -16,7 +16,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan({ "com.bin.framework.spring" })
+@ComponentScan({ "com.bin.spring" })
 public class AppConfig extends WebMvcConfigurerAdapter{
 	
 	public void addInterceptors(InterceptorRegistry registry) {

@@ -1,4 +1,4 @@
-package com.bin.framework.spring.config;
+package com.bin.spring.config;
 
 import java.util.Properties;
 
@@ -17,7 +17,7 @@ import org.springframework.web.servlet.view.JstlView;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan({ "com.bin.framework.spring" })
+@ComponentScan({ "com.bin.spring" })
 @EnableTransactionManagement
 @Import({ SecurityConfig.class })
 public class AppConfig {
@@ -26,7 +26,7 @@ public class AppConfig {
     public SessionFactory sessionFactory() {
         LocalSessionFactoryBuilder builder = new LocalSessionFactoryBuilder(dataSource());
         builder
-        	.scanPackages("com.bin.framework.spring.model")
+        	.scanPackages("com.bin.spring.model")
             .addProperties(getHibernateProperties());
 
         return builder.buildSessionFactory();

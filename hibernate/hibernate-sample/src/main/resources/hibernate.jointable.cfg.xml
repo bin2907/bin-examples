@@ -14,8 +14,8 @@
 		<!-- Default is import.sql -->
 		<property name="hibernate.hbm2ddl.import_files">initial_data_jointable.sql</property>
 		
-		<mapping class="com.bin.framework.hibernate.sample.entity.jointable.User"/>
-		<mapping class="com.bin.framework.hibernate.sample.entity.jointable.Role"/>
+		<mapping class="com.bin.hibernate.sample.entity.jointable.User"/>
+		<mapping class="com.bin.hibernate.sample.entity.jointable.Role"/>
 		
 	</session-factory>
 </hibernate-configuration>

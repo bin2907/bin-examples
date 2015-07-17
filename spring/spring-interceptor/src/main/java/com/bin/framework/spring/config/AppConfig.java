@@ -1,4 +1,4 @@
-package com.bin.framework.spring.config;
+package com.bin.spring.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -9,11 +9,11 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
-import com.bin.framework.spring.interceptor.ExecuteTimeInterceptor;
+import com.bin.spring.interceptor.ExecuteTimeInterceptor;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan({ "com.bin.framework.spring" })
+@ComponentScan({ "com.bin.spring" })
 public class AppConfig extends WebMvcConfigurerAdapter{
 	
 	public void addInterceptors(InterceptorRegistry registry) {

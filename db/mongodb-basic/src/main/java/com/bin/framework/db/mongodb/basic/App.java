@@ -1,4 +1,4 @@
-package com.bin.framework.db.mongodb.basic;
+package com.bin.db.mongodb.basic;
 
 /**
  * Hello world!

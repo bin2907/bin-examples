@@ -20,13 +20,13 @@
 		<servlet-name>AutowireSpringBeanServlet</servlet-name>
 		<display-name>AutowireSpringBeanServlet</display-name>
 		<description></description>
-		<servlet-class>com.bin.framework.spring.servlet.AutowireSpringBeanServlet</servlet-class>
+		<servlet-class>com.bin.spring.servlet.AutowireSpringBeanServlet</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>WebApplicationContextServlet</servlet-name>
 		<display-name>WebApplicationContextServlet</display-name>
 		<description></description>
-		<servlet-class>com.bin.framework.spring.servlet.WebApplicationContextServlet</servlet-class>
+		<servlet-class>com.bin.spring.servlet.WebApplicationContextServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>AutowireSpringBeanServlet</servlet-name>

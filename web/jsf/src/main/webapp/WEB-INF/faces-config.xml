@@ -7,7 +7,7 @@
 		<!-- Application Startup -->
 		<system-event-listener>
 			<system-event-listener-class>
-				com.bin.framework.web.jsf.sample.AppSystemEventListener
+				com.bin.web.jsf.sample.AppSystemEventListener
 			</system-event-listener-class>
 			<system-event-class>
 				javax.faces.event.PostConstructApplicationEvent
@@ -16,7 +16,7 @@
 		<!-- Before Application is to shut down -->
 		<system-event-listener>
 			<system-event-listener-class>
-				com.bin.framework.web.jsf.sample.AppSystemEventListener
+				com.bin.web.jsf.sample.AppSystemEventListener
 			</system-event-listener-class>
 			<system-event-class>
 				javax.faces.event.PreDestroyApplicationEvent
@@ -30,7 +30,7 @@
 			<supported-locale>fr</supported-locale>
 		</locale-config>
 		<resource-bundle>
-			<base-name>com.bin.framework.web.jsf.sample.messages</base-name>
+			<base-name>com.bin.web.jsf.sample.messages</base-name>
 			<var>msg</var>
 		</resource-bundle>
 

@@ -15,9 +15,9 @@
 		<property name="hibernate.hbm2ddl.import_files">initial_data.sql</property>
 		
 		<!-- <mapping jar="hibernate-mappings.jar"/> ??? -->
-		<!-- <mapping package="com.bin.framework.hibernate.sample.entity.*"/> ??? -->
-		<mapping class="com.bin.framework.hibernate.sample.entity.User"/>
-		<mapping class="com.bin.framework.hibernate.sample.entity.Role"/>
+		<!-- <mapping package="com.bin.hibernate.sample.entity.*"/> ??? -->
+		<mapping class="com.bin.hibernate.sample.entity.User"/>
+		<mapping class="com.bin.hibernate.sample.entity.Role"/>
 		
 	</session-factory>
 </hibernate-configuration>

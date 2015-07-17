@@ -1,4 +1,4 @@
-package com.bin.framework.util;
+package com.bin.util;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

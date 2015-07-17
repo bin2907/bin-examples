@@ -1,4 +1,4 @@
-package com.bin.framework.spring.core;
+package com.bin.spring.core;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

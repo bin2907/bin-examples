@@ -1,4 +1,4 @@
-package com.bin.framework.pdf.itext.sample.ch1;
+package com.bin.pdf.itext.sample.ch1;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

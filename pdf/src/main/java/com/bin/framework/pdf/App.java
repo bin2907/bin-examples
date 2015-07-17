@@ -1,4 +1,4 @@
-package com.bin.framework.pdf;
+package com.bin.pdf;
 
 /**
  * Hello world!

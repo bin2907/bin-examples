@@ -1,4 +1,4 @@
-package com.bin.framework.web.primefaces.bankingbeans;
+package com.bin.web.primefaces.bankingbeans;
 
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ApplicationScoped;

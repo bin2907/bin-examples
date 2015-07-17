@@ -5,4 +5,4 @@
  * @author binh.nguyenthanh
  *
  */
-package com.bin.framework.spring.servlet;
+package com.bin.spring.servlet;

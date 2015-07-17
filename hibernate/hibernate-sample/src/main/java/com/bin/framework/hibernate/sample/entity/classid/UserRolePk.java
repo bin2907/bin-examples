@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample.entity.classid;
+package com.bin.hibernate.sample.entity.classid;
 
 import java.io.Serializable;
 

@@ -14,10 +14,10 @@
 		<!-- Default is import.sql -->
 		<property name="hibernate.hbm2ddl.import_files">initial_data_compositekey.sql</property>
 		
-		<mapping class="com.bin.framework.hibernate.sample.entity.compositekey.User"/>
-		<mapping class="com.bin.framework.hibernate.sample.entity.compositekey.Role"/>
-		<mapping class="com.bin.framework.hibernate.sample.entity.compositekey.Center"/>
-		<mapping class="com.bin.framework.hibernate.sample.entity.compositekey.AccessRight"/>
+		<mapping class="com.bin.hibernate.sample.entity.compositekey.User"/>
+		<mapping class="com.bin.hibernate.sample.entity.compositekey.Role"/>
+		<mapping class="com.bin.hibernate.sample.entity.compositekey.Center"/>
+		<mapping class="com.bin.hibernate.sample.entity.compositekey.AccessRight"/>
 		
 	</session-factory>
 </hibernate-configuration>

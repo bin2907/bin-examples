@@ -1,4 +1,4 @@
-package com.bin.framework.spring.quickstart;
+package com.bin.spring.quickstart;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

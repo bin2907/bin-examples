@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample;
+package com.bin.hibernate.sample;
 
 
 import org.hibernate.Session;
@@ -7,8 +7,8 @@ import org.hibernate.Transaction;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
-import com.bin.framework.hibernate.sample.entity.onetoone.Role;
-import com.bin.framework.hibernate.sample.entity.onetoone.User;
+import com.bin.hibernate.sample.entity.onetoone.Role;
+import com.bin.hibernate.sample.entity.onetoone.User;
 
 /**
  * Hello world!

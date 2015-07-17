@@ -14,9 +14,9 @@
 		<!-- Default is import.sql -->
 		<property name="hibernate.hbm2ddl.import_files">initial_data_embeddedid.sql</property>
 		
-		<mapping class="com.bin.framework.hibernate.sample.entity.embeddedid.User"/>
-		<mapping class="com.bin.framework.hibernate.sample.entity.embeddedid.Role"/>
-		<mapping class="com.bin.framework.hibernate.sample.entity.embeddedid.UserRole"/>
+		<mapping class="com.bin.hibernate.sample.entity.embeddedid.User"/>
+		<mapping class="com.bin.hibernate.sample.entity.embeddedid.Role"/>
+		<mapping class="com.bin.hibernate.sample.entity.embeddedid.UserRole"/>
 		
 	</session-factory>
 </hibernate-configuration>

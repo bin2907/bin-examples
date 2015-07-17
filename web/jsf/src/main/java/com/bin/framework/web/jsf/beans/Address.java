@@ -1,6 +1,6 @@
-package com.bin.framework.web.jsf.beans;
+package com.bin.web.jsf.beans;
 
-import com.bin.framework.web.jsf.components.outputoject.OutputObjectAttribute;
+import com.bin.web.jsf.components.outputoject.OutputObjectAttribute;
 
 public class Address {
 

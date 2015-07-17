@@ -1,4 +1,4 @@
-package com.bin.framework.pdf;
+package com.bin.pdf;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -1,4 +1,4 @@
-package com.bin.framework.spring.controller;
+package com.bin.spring.controller;
 
 import java.util.Date;
 
@@ -12,8 +12,8 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Component;
 
-import com.bin.framework.spring.dao.UserDetailsDao;
-import com.bin.framework.spring.model.UserAttempts;
+import com.bin.spring.dao.UserDetailsDao;
+import com.bin.spring.model.UserAttempts;
 
 @Component("authenticationProvider")
 public class LimitLoginAuthenticationProvider extends DaoAuthenticationProvider {

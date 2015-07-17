@@ -1,4 +1,4 @@
-package com.bin.framework.spring.dao;
+package com.bin.spring.dao;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -14,7 +14,7 @@ import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.security.authentication.LockedException;
 import org.springframework.stereotype.Repository;
 
-import com.bin.framework.spring.model.UserAttempts;
+import com.bin.spring.model.UserAttempts;
 
 @Repository
 public class UserDetailsDaoImpl extends JdbcDaoSupport implements UserDetailsDao {

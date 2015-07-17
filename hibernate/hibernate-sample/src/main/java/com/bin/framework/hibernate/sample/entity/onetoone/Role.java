@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample.entity.onetoone;
+package com.bin.hibernate.sample.entity.onetoone;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

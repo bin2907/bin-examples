@@ -1,4 +1,4 @@
-package com.bin.framework.spring.exception;
+package com.bin.spring.exception;
 
 public class CustomGenericException extends RuntimeException {
 

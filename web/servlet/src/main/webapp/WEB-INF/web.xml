@@ -8,7 +8,7 @@
   	<servlet-name>HelloServlet</servlet-name>
   	<display-name>HelloServlet</display-name>
   	<description></description>
-  	<servlet-class>com.bin.framework.web.servlet.HelloServlet</servlet-class>
+  	<servlet-class>com.bin.web.servlet.HelloServlet</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>HelloServlet</servlet-name>

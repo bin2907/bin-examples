@@ -1,10 +1,10 @@
-package com.bin.framework.pdf.itext.sample.ch2;
+package com.bin.pdf.itext.sample.ch2;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.sql.SQLException;
 
-import com.bin.framework.pdf.itext.sample.utils.PojoToElementFactory;
+import com.bin.pdf.itext.sample.utils.PojoToElementFactory;
 import com.itextpdf.text.Chapter;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
@@ -57,7 +57,7 @@ public class MovieHistory{
         Section section = null;
         Section subsection = null;
         // loop over the movies
-        for(com.bin.framework.pdf.itext.sample.utils.Movie movie : PojoToElementFactory.getMovies()) {
+        for(com.bin.pdf.itext.sample.utils.Movie movie : PojoToElementFactory.getMovies()) {
             
         	// add the chapter if we're in a new epoch
             if (epoch < (movie.getYear() - 1940) / 10) {

@@ -5,8 +5,8 @@
 	    
 	    
 
-		<mapping class="com.bin.framework.spring.hibernate.entity.User"/>
-		<mapping class="com.bin.framework.spring.hibernate.entity.Role"/>
+		<mapping class="com.bin.spring.hibernate.entity.User"/>
+		<mapping class="com.bin.spring.hibernate.entity.Role"/>
 		
 	</session-factory>
 </hibernate-configuration>

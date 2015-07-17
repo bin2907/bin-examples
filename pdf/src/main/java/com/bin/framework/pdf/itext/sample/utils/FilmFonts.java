@@ -1,4 +1,4 @@
-package com.bin.framework.pdf.itext.sample.utils;
+package com.bin.pdf.itext.sample.utils;
 
 import com.itextpdf.text.Font;
 import com.itextpdf.text.Font.FontFamily;

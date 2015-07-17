@@ -5,4 +5,4 @@
  * @author binh.nguyenthanh
  *
  */
-package com.bin.framework.spring.hibernate.entity;
+package com.bin.spring.hibernate.entity;

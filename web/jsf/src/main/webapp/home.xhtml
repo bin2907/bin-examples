@@ -92,7 +92,7 @@
 				Input a text and click submit: <h:inputText id="inputText_converter" value="#{myConverterBean.myData}"
 					label="Input Number">
 					<f:converter
-						converterId="com.bin.framework.web.jsf.converter.sample.MyConverter" />
+						converterId="com.bin.web.jsf.converter.sample.MyConverter" />
 				</h:inputText>
 				<h:commandButton value="submit" action="result" />
 				<h:message for="inputText_converter" style="color:red" />
@@ -107,7 +107,7 @@
 			<h2>Custom Validator Example</h2>
 			<h:form>
 				Input a text and click submit: <h:inputText id="inputText_validator" label="Input Number">
-					<f:validator validatorId="com.bin.framework.web.jsf.validator.sample.MyValidator" />
+					<f:validator validatorId="com.bin.web.jsf.validator.sample.MyValidator" />
 				</h:inputText>
 				<h:commandButton value="submit" action="result2" />
 				<h:message for="inputText_validator" style="color:red" />

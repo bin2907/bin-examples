@@ -25,8 +25,8 @@
 		<!-- Default is import.sql -->
 		<property name="hibernate.hbm2ddl.import_files">initial_data_sequence.sql</property>
 		
-		<mapping class="com.bin.framework.hibernate.sample.entity.sequence.User"/>
-		<mapping class="com.bin.framework.hibernate.sample.entity.sequence.Address"/>
+		<mapping class="com.bin.hibernate.sample.entity.sequence.User"/>
+		<mapping class="com.bin.hibernate.sample.entity.sequence.Address"/>
 		
 	</session-factory>
 </hibernate-configuration>

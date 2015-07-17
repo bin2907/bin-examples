@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample.entity.jointable;
+package com.bin.hibernate.sample.entity.jointable;
 
 import java.util.List;
 

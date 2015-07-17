@@ -1,4 +1,4 @@
-package com.bin.framework.spring.controller;
+package com.bin.spring.controller;
 
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.core.Authentication;

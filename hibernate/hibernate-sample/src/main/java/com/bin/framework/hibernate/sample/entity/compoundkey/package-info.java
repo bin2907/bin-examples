@@ -5,4 +5,4 @@
  * @author binh.nguyenthanh
  *
  */
-package com.bin.framework.hibernate.sample.entity.compoundkey;
+package com.bin.hibernate.sample.entity.compoundkey;

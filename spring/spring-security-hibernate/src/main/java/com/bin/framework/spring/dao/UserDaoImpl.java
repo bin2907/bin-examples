@@ -1,4 +1,4 @@
-package com.bin.framework.spring.dao;
+package com.bin.spring.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,7 +7,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.bin.framework.spring.model.User;
+import com.bin.spring.model.User;
 
 @Repository
 public class UserDaoImpl implements UserDao {

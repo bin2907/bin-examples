@@ -1,4 +1,4 @@
-package com.bin.framework.spring.servlet;
+package com.bin.spring.servlet;
 
 import java.io.IOException;
 
@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
-import com.bin.framework.spring.servlet.beans.SampleService;
+import com.bin.spring.servlet.beans.SampleService;
 
 /**
  * Servlet implementation class WebApplicationContextServlet

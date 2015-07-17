@@ -1,4 +1,4 @@
-package com.bin.framework.web.jsf.validator.sample;
+package com.bin.web.jsf.validator.sample;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.component.UIComponent;
@@ -7,7 +7,7 @@ import javax.faces.validator.FacesValidator;
 import javax.faces.validator.Validator;
 import javax.faces.validator.ValidatorException;
 
-@FacesValidator("com.bin.framework.web.jsf.validator.sample.MyValidator")
+@FacesValidator("com.bin.web.jsf.validator.sample.MyValidator")
 public class MyValidator implements Validator {
 
 	@Override

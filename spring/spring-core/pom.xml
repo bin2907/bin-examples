@@ -4,11 +4,11 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.bin.framework.spring</groupId>
+		<groupId>com.bin.spring</groupId>
 		<artifactId>spring</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-	<groupId>com.bin.framework.spring.core</groupId>
+	<groupId>com.bin.spring.core</groupId>
 	<artifactId>spring-core</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<name>spring-core</name>

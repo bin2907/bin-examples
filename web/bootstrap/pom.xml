@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.bin.framework.web</groupId>
+    <groupId>com.bin.web</groupId>
     <artifactId>web</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>com.bin.framework.web.bootstrap</groupId>
+  <groupId>com.bin.web.bootstrap</groupId>
   <artifactId>bootstrap</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>

@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample.entity.sequence;
+package com.bin.hibernate.sample.entity.sequence;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample.entity.compositekey;
+package com.bin.hibernate.sample.entity.compositekey;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,4 +1,4 @@
-package com.bin.framework.spring.controller;
+package com.bin.spring.controller;
 
 import javax.validation.Valid;
 
@@ -8,7 +8,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.bin.framework.spring.dto.Customer;
+import com.bin.spring.dto.Customer;
 
 @Controller
 public class MainController {

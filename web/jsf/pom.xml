@@ -5,10 +5,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<artifactId>web</artifactId>
-		<groupId>com.bin.framework.web</groupId>
+		<groupId>com.bin.web</groupId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-	<groupId>com.bin.framework.web.jsf</groupId>
+	<groupId>com.bin.web.jsf</groupId>
 	<artifactId>jsf</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>war</packaging>

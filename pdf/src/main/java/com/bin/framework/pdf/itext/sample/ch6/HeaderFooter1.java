@@ -1,11 +1,11 @@
-package com.bin.framework.pdf.itext.sample.ch6;
+package com.bin.pdf.itext.sample.ch6;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.sql.SQLException;
 
-import com.bin.framework.pdf.itext.sample.utils.FilmFonts;
+import com.bin.pdf.itext.sample.utils.FilmFonts;
 import com.itextpdf.text.Chunk;
 import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;

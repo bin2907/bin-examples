@@ -1,10 +1,10 @@
-package com.bin.framework.spring.hibernate.dao;
+package com.bin.spring.hibernate.dao;
 
 import java.util.List;
 
 import org.springframework.stereotype.Repository;
 
-import com.bin.framework.spring.hibernate.entity.User;
+import com.bin.spring.hibernate.entity.User;
 
 @Repository
 public class SampleDao {

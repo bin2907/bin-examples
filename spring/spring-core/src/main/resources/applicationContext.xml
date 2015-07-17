@@ -17,7 +17,7 @@
     	context:annotation-config, because autowiring is implicitly enabled when component
 		scanning is enabled. 
 	-->
-    <context:component-scan base-package="com.bin.framework.spring.core.annotation"/>
+    <context:component-scan base-package="com.bin.spring.core.annotation"/>
     
     
         
@@ -29,26 +29,26 @@
 
 	<!-- Register bean -->
     <bean id="sampleDao"
-        class="com.bin.framework.spring.core.SampleDao">
+        class="com.bin.spring.core.SampleDao">
     </bean>
 
 	<!-- Wire bean -->
     <bean id="sampleService"
-        class="com.bin.framework.spring.core.SampleService">
+        class="com.bin.spring.core.SampleService">
         <property name="sampleDao" ref="sampleDao"/>
     </bean>
     
     
     <!-- Load resource(file) into beans -->
     <bean id="sampleResource" 
-	   class="com.bin.framework.spring.core.SampleResource">
+	   class="com.bin.spring.core.SampleResource">
 		<property name="resource" value="config.properties"/>	
 	</bean>
 	
 	
 	<!-- Use p namespace and property tag to load value of property file from Property Placeholder-->
 	<bean id="config"
-	  class="com.bin.framework.spring.core.Config"
+	  class="com.bin.spring.core.Config"
 	  p:name="${name}">
 		<property name="version" value="${version}"/>
 	</bean>

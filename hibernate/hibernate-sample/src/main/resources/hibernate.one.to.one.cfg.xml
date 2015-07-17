@@ -14,8 +14,8 @@
 		<!-- Default is import.sql -->
 		<property name="hibernate.hbm2ddl.import_files">initial_data_one_to_one.sql</property>
 		
-		<mapping class="com.bin.framework.hibernate.sample.entity.onetoone.User"/>
-		<mapping class="com.bin.framework.hibernate.sample.entity.onetoone.Role"/>
+		<mapping class="com.bin.hibernate.sample.entity.onetoone.User"/>
+		<mapping class="com.bin.hibernate.sample.entity.onetoone.Role"/>
 		
 	</session-factory>
 </hibernate-configuration>

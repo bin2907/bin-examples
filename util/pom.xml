@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>bin-framework</artifactId>
-    <groupId>com.bin.framework</groupId>
+    <groupId>com.bin</groupId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <groupId>com.bin.framework.util</groupId>
+  <groupId>com.bin.util</groupId>
   <artifactId>util</artifactId>
   <version>1.0-SNAPSHOT</version>
   <name>util</name>

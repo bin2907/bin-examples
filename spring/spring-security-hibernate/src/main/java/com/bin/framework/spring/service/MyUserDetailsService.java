@@ -1,4 +1,4 @@
-package com.bin.framework.spring.service;
+package com.bin.spring.service;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -15,8 +15,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.bin.framework.spring.dao.UserDao;
-import com.bin.framework.spring.model.UserRole;
+import com.bin.spring.dao.UserDao;
+import com.bin.spring.model.UserRole;
 
 
 @Service("userDetailsService")
@@ -31,7 +31,7 @@ public class MyUserDetailsService implements UserDetailsService {
 	public UserDetails loadUserByUsername(final String username) 
 		throws UsernameNotFoundException {
  
-		com.bin.framework.spring.model.User user = userDao.findByUserName(username);
+		com.bin.spring.model.User user = userDao.findByUserName(username);
 		List<GrantedAuthority> authorities = 
                                       buildUserAuthority(user.getUserRole());
  
@@ -41,7 +41,7 @@ public class MyUserDetailsService implements UserDetailsService {
  
 	// Converts com.mkyong.users.model.User user to
 	// org.springframework.security.core.userdetails.User
-	private User buildUserForAuthentication(com.bin.framework.spring.model.User user, 
+	private User buildUserForAuthentication(com.bin.spring.model.User user, 
 		List<GrantedAuthority> authorities) {
 		return new User(user.getUsername(), user.getPassword(), 
 			user.isEnabled(), true, true, true, authorities);

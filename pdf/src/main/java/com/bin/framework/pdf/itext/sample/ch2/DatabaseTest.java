@@ -1,4 +1,4 @@
-package com.bin.framework.pdf.itext.sample.ch2;
+package com.bin.pdf.itext.sample.ch2;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

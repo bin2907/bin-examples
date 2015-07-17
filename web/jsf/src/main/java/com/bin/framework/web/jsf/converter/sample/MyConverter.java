@@ -1,4 +1,4 @@
-package com.bin.framework.web.jsf.converter.sample;
+package com.bin.web.jsf.converter.sample;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.component.UIComponent;
@@ -7,7 +7,7 @@ import javax.faces.convert.Converter;
 import javax.faces.convert.ConverterException;
 import javax.faces.convert.FacesConverter;
 
-@FacesConverter("com.bin.framework.web.jsf.converter.sample.MyConverter")
+@FacesConverter("com.bin.web.jsf.converter.sample.MyConverter")
 public class MyConverter implements Converter{
 
 	@Override

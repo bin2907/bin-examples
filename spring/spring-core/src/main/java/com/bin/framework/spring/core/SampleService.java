@@ -1,4 +1,4 @@
-package com.bin.framework.spring.core;
+package com.bin.spring.core;
 
 public class SampleService {
 

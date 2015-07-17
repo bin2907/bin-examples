@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample.entity.tablestrategy;
+package com.bin.hibernate.sample.entity.tablestrategy;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

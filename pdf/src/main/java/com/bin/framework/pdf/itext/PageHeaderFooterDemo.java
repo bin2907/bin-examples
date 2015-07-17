@@ -1,4 +1,4 @@
-package com.bin.framework.pdf.itext;
+package com.bin.pdf.itext;
 
 import java.io.FileOutputStream;
 

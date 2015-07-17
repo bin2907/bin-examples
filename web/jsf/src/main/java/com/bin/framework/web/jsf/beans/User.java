@@ -1,9 +1,9 @@
-package com.bin.framework.web.jsf.beans;
+package com.bin.web.jsf.beans;
 
 import java.net.URL;
 import java.util.Date;
 
-import com.bin.framework.web.jsf.components.outputoject.OutputObjectAttribute;
+import com.bin.web.jsf.components.outputoject.OutputObjectAttribute;
 
 public class User {
 

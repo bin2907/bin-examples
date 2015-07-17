@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample.entity.compoundkey;
+package com.bin.hibernate.sample.entity.compoundkey;
 
 import java.util.HashSet;
 import java.util.Set;

@@ -1,6 +1,6 @@
-package com.bin.framework.spring.dao;
+package com.bin.spring.dao;
 
-import com.bin.framework.spring.model.User;
+import com.bin.spring.model.User;
 
 public interface UserDao {
 	 

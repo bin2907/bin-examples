@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample;
+package com.bin.hibernate.sample;
 
 
 import org.hibernate.Session;
@@ -6,7 +6,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 
-import com.bin.framework.hibernate.sample.entity.onetomany.User;
+import com.bin.hibernate.sample.entity.onetomany.User;
 
 /**
  * Hello world!

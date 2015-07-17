@@ -1,4 +1,4 @@
-package com.bin.framework.hibernate.sample.entity.onetomany;
+package com.bin.hibernate.sample.entity.onetomany;
 
 import java.util.Iterator;
 
