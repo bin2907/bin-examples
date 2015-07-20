@@ -24,5 +24,6 @@
     <module>angularjs</module>
     <module>bootstrap</module>
 	<module>javascript</module>
+	<module>glmap</module>
   </modules>
 </project>
