@@ -48,5 +48,6 @@
     <module>spring-tiles</module>
     <module>spring-tiles-title</module>
     <module>spring-tiles-preparer</module>
+    <module>spring-restful</module>
   </modules>
 </project>
