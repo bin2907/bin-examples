@@ -49,5 +49,6 @@
     <module>spring-tiles-title</module>
     <module>spring-tiles-preparer</module>
     <module>spring-restful</module>
+    <module>spring-jdbc</module>
   </modules>
 </project>

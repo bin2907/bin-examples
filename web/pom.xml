@@ -25,5 +25,6 @@
     <module>bootstrap</module>
 	<module>javascript</module>
 	<module>glmap</module>
+	<module>jq-datatables</module>
   </modules>
 </project>
