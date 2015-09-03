@@ -86,6 +86,7 @@
 		<module>spring</module>
 		<module>pdf</module>
 		<module>db</module>
+		<module>liferay</module>
 	</modules>
 
 	<build>

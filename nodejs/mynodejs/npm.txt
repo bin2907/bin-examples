@@ -1,0 +1,16 @@
+npm install <Module Name>
+
+For examples:
+npm install express
+
+npm update express
+
+npm search express
+
+npm install express -g
+
+npm ls -g
+
+npm uninstall express
+
+npm ls

@@ -1,0 +1,17 @@
+{
+  "name": "passport-http",
+  "version": "0.0.0",
+  "description": "Passport authentication via HTTP Basic scheme.",
+  "author": "Jared Hanson",
+  "license": "Unlicense",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "express": "^3.21.1",
+    "passport": "^0.2.2",
+    "passport-http": "^0.3.0"
+  }
+}

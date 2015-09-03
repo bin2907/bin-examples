@@ -1,0 +1,12 @@
+1. Install NodeJS
+2. Install MongoDB
+
+cd /bin-cms
+
+npm install
+
+node app.js
+
+http://localhost:8080
+
+http://localhost:8080/mobile

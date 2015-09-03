@@ -26,5 +26,6 @@
 	<module>javascript</module>
 	<module>glmap</module>
 	<module>jq-datatables</module>
+	<module>osasoft</module>
   </modules>
 </project>
